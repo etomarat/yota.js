@@ -1,8 +1,9 @@
 {
   "name": "yota.js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Package for working with Yota routers. It can show signal status, speed and other. For example can reboot device",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/etomarat/yota.js/issues"
   },
-  "homepage": "https://github.com/etomarat/yota.js#readme"
+  "homepage": "https://github.com/etomarat/yota.js#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
